@@ -1,5 +1,5 @@
 # data.pipeline
-```
+```mermaid
 flowchart LR
     A[Branch CSV Files<br>(transactions)] --> B[Azure Blob Storage<br>(Raw Data)]
     B --> C[Azure Data Factory (ADF)<br>+ Spark/Databricks<br>ETL Process]
